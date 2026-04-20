@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Saaket | Portfolio</title>
+  <meta name="description" content="Personal portfolio website for Saaket.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="brand" href="#home">Saaket</a>
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="home">
+      <section class="hero section reveal">
+        <div class="hero-copy">
+          <div class="profile-frame" aria-label="Profile photo placeholder">
+            <div class="profile-frame-inner">
+              <span>Add Your Photo</span>
+            </div>
+          </div>
+          <p class="eyebrow">Personal Portfolio</p>
+          <h1>Hi, I'm Saaket. I build electronics, embedded systems, and creative code projects.</h1>
+          <p class="hero-text">
+            I work on analog circuit design, Arduino-based embedded systems, core C programming,
+            and fun 2-D Python games that bring logic and creativity together.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">View My Work</a>
+            <a class="button button-secondary" href="#contact">Get In Touch</a>
+          </div>
+        </div>
+
+        <aside class="hero-card">
+          <p class="card-label">Currently Focused On</p>
+          <ul class="focus-list">
+            <li>Analog circuit design</li>
+            <li>Arduino and embedded coding</li>
+            <li>Core C and Python projects</li>
+          </ul>
+        </aside>
+      </section>
+
+      <section id="about" class="section reveal">
+        <div class="section-heading">
+          <p class="eyebrow">About</p>
+          <h2>A little about me</h2>
+        </div>
+        <div class="about-grid">
+          <p>
+            I'm passionate about building practical systems from the ground up, whether that means
+            designing electronic circuits, programming microcontrollers, or writing structured code
+            that solves real problems.
+          </p>
+          <p>
+            My work combines hardware thinking with software logic. I enjoy exploring how design,
+            programming, and experimentation can come together in projects that are both technical
+            and hands-on.
+          </p>
+        </div>
+      </section>
+
+      <section id="projects" class="section reveal">
+        <div class="section-heading">
+          <p class="eyebrow">Projects</p>
+          <h2>Selected work</h2>
+          <p class="contact-text">
+            My portfolio combines hardware builds, embedded systems, and programming projects.
+            You can explore more source code and project files on GitHub.
+          </p>
+        </div>
+
+        <div class="project-topbar">
+          <div class="project-topbar-copy">
+            <span class="project-tag">Project Archive</span>
+            <p class="project-topbar-text">See code, experiments, and updates from my GitHub profile.</p>
+          </div>
+          <a class="button button-primary" href="https://github.com/Saaket-com" target="_blank" rel="noreferrer">View GitHub</a>
+        </div>
+
+        <div class="project-group">
+          <div class="project-group-heading">
+            <p class="eyebrow">Hardware Projects</p>
+            <h3>Electronics and embedded systems</h3>
+          </div>
+          <div class="project-grid project-grid-two">
+            <article class="project-card project-card-featured">
+              <span class="project-tag">Electronics / Multisim NI</span>
+              <h3>12 V Power Supply</h3>
+              <p>
+                Built a 12 volt DC power supply using a transformer, bridge rectifier, filter, and
+                LM317H voltage regulator IC. This project helped me understand how AC voltage is
+                converted into stable DC voltage through practical design and simulation.
+              </p>
+            </article>
+            <article class="project-card">
+              <span class="project-tag">Analog Electronics / KiCad</span>
+              <h3>Audio Level Visualizer</h3>
+              <p>
+                Built an audio level visualizer using the LM3914N-1 analog LED driver IC, an analog microphone,
+                resistors, and 10 LEDs to display audio-based voltage levels in real time.
+              </p>
+            </article>
+            <article class="project-card">
+              <span class="project-tag">Arduino / Embedded</span>
+              <h3>360 Degree Radar System</h3>
+              <p>
+                Created an Arduino-based radar system using ultrasonic sensors for object detection and a 360 degree
+                radar-style visual interface built in Processing using Java.
+              </p>
+            </article>
+          </div>
+        </div>
+
+        <div class="project-group">
+          <div class="project-group-heading">
+            <p class="eyebrow">Software Projects</p>
+            <h3>Games and programming fundamentals</h3>
+          </div>
+          <div class="project-grid project-grid-two">
+            <article class="project-card">
+              <span class="project-tag">Python / Pygame</span>
+              <h3>Coin Collector Game</h3>
+              <p>
+                Developed a small 2-D game in Python with Pygame where the player controls a character,
+                collects coins, and tries to beat their high score.
+              </p>
+            </article>
+          </div>
+        </div>
+
+        <div class="project-list-card">
+          <div class="project-list-heading">
+            <span class="project-tag">Core C Projects</span>
+            <h3>Foundational C Programming Projects</h3>
+          </div>
+          <div class="project-list">
+            <div class="project-list-item">
+              <div>
+                <h4>Pirates_bounty_comparison.c</h4>
+                <p>Compares bounty values using conditional logic.</p>
+              </div>
+              <span class="level-badge">Beginner</span>
+            </div>
+            <div class="project-list-item">
+              <div>
+                <h4>Time_conversion.c</h4>
+                <p>Converts time between different formats.</p>
+              </div>
+              <span class="level-badge">Beginner</span>
+            </div>
+            <div class="project-list-item">
+              <div>
+                <h4>count_vowels.c</h4>
+                <p>Counts total vowels in a given string.</p>
+              </div>
+              <span class="level-badge">Beginner</span>
+            </div>
+            <div class="project-list-item">
+              <div>
+                <h4>simple_calculator.c</h4>
+                <p>Performs basic arithmetic operations.</p>
+              </div>
+              <span class="level-badge">Beginner</span>
+            </div>
+            <div class="project-list-item">
+              <div>
+                <h4>swapping.c</h4>
+                <p>Demonstrates swapping of two numbers using logic.</p>
+              </div>
+              <span class="level-badge">Beginner</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section reveal">
+        <div class="section-heading">
+          <p class="eyebrow">Skills</p>
+          <h2>Skills and tools</h2>
+        </div>
+        <div class="skills-layout">
+          <div class="skills-panel">
+            <p class="eyebrow">Core Skills</p>
+            <div class="skill-grid">
+              <div class="skill-pill">Analog Electronics</div>
+              <div class="skill-pill">Circuit Design</div>
+              <div class="skill-pill">Arduino Programming</div>
+              <div class="skill-pill">Embedded C</div>
+              <div class="skill-pill">Core C Programming</div>
+              <div class="skill-pill">Python</div>
+              <div class="skill-pill">Pygame</div>
+              <div class="skill-pill">Problem Solving</div>
+            </div>
+          </div>
+          <div class="skills-panel">
+            <p class="eyebrow">Tools I Use</p>
+            <div class="skill-grid">
+              <div class="skill-pill">KiCad</div>
+              <div class="skill-pill">EasyEDA</div>
+              <div class="skill-pill">Tinkercad</div>
+              <div class="skill-pill">Multisim NI</div>
+              <div class="skill-pill">Arduino IDE</div>
+              <div class="skill-pill">VS Code</div>
+              <div class="skill-pill">Logisim</div>
+              <div class="skill-pill">Processing IDE</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact-section reveal">
+        <div class="section-heading">
+          <p class="eyebrow">Contact</p>
+          <h2>Find me online</h2>
+        </div>
+        <p class="contact-text">
+          Connect with me through my social profiles to see more of my work and get in touch.
+        </p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="https://www.linkedin.com/in/saaket-k-53b01938b/" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a class="button button-secondary" href="https://www.instagram.com/saak.etk/" target="_blank" rel="noreferrer">Instagram</a>
+          <a class="button button-secondary" href="https://www.youtube.com/@SaaketK-w4r2h" target="_blank" rel="noreferrer">YouTube</a>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
